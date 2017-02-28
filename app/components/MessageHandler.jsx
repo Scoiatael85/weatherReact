@@ -16,7 +16,7 @@ var MessageHandler = React.createClass({
 		return (
 			<div>
 				<form onSubmit={this.onFormSubmit}>
-					<input type="text" ref="location"/>
+					<input type="search" ref="location" placeholder="select a city"/>
 					<button className="hollow button expanded">Get Weather</button>
 				</form>
 			</div>

@@ -53,7 +53,7 @@ var Weather = React.createClass({
 
 		return (
 			<div>
-				<h1 className="text-center">Live Weather</h1>
+				<h1 className="text-center page-title">Live Weather</h1>
 				<MessageHandler onSearch={this.handleSearch}/>
 				{renderMessage()}
 				{renderError()}
